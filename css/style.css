@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Medium.woff') format('woff'),
+        url('../fonts/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Light.woff') format('woff'),
+        url('../fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Bold.woff') format('woff'),
+        url('../fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-SemiBold.woff') format('woff'),
+        url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: block;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+header{
+    display: flex;
+   color: #fff;
+   opacity: 0.5;
+   padding: 73px 138px;
+  /* align-items: center; */
+   justify-content: center;
+}
+h1{
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 43px;
+}
+.first-content{
+    background: #fff;
+    padding: 71px 116px 217px;
+}
+.first-content__txt{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 60px;
+}
+.first-content__icontxt{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 110px;
+}
+.first-content__icon{
+    display: flex;
+    align-items: center;
+}
+.first-content__icon a{
+    margin-left: 41px;
+}
+.first-content__icon img:first-child{
+    margin-left: 0;
+}
+.first-content__lnk{
+    margin-top: 200px;
+}
+.first-content__lnk a{
+    font-weight: 700;
+    font-size: 70px;
+}
+.first-content__lnk p:first-child{
+    margin-bottom: 41px;
+}
+.duble-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 54px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+}
+h2{
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+.duble-content a::before{
+    display: inline-block;
+    content: "";
+    background-image: url("../img/image.png");
+    position: relative;
+    width: 100px;
+    height: 101px;
+    top: 40px;
+    right: 28px;
+}
+.duble-content img{
+    height: 44px;
+}
+.two{
+    text-align: center;
+    background: #1f1f1f;
+}
+.two a::before{
+    display: inline-block;
+    content: "";
+    background-image: url(../img/patreon.png);
+    position: relative;
+    width: 109px;
+    height: 109px;
+    top: 45px;
+    right: 28px;
+}
+.three-content hr{
+    margin: 132px 138px 31px;
+    border-color: #C1CBFF;
+    width: 82%;
+}
+h3{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 31px;
+}
+.three-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+}
+.three-content__social{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.three-content__social a{
+    display: block;
+    margin: auto;
+    font-size: 32px;
+    font-weight: 400;
+}
+#inst::before{
+    display: inline-block;
+    content: "";
+    background-image: url(../Inst.png);
+    position: relative;
+    width: 48px;
+    height: 48px;
+    top: 10px;
+    right: 20px;
+}
+#drib::before{
+    display: inline-block;
+    content: "";
+    background-image: url(../Drib.png);
+    position: relative;
+    width: 48px;
+    height: 48px;
+    top: 10px;
+    right: 20px;
+}
+#behan::before{
+    display: inline-block;
+    content: "";
+    background-image: url(../behance.png);
+    position: relative;
+    width: 48px;
+    height: 48px;
+    top: 10px;
+    right: 20px;
+}
+#figma::before{
+    display: inline-block;
+    content: "";
+    background-image: url(../Figm.png);
+    position: relative;
+    width: 48px;
+    height: 48px;
+    top: 10px;
+    right: 20px;
+}
+.three-content__donate{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 87px;
+}
+.three-content__donate h3{
+    margin-top: 133px;
+    font-weight: 700;
+}
